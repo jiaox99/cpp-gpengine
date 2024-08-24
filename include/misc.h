@@ -19,7 +19,9 @@
 #define MISC_H
 
 #define integer unsigned short
+#ifndef __cpp_lib_byte
 #define byte unsigned char
+#endif // #ifndef __cpp_lib_byte
 
 typedef unsigned short UBYTE2;
 #if defined (_BIGENDIAN)

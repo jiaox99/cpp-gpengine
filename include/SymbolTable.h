@@ -17,8 +17,8 @@
  #ifndef SYMBOLTABLE_H
  #define SYMBOLTABLE_H
 
- #include "misc.h"
  #include <string>
+ #include "misc.h"
 
 
  enum SymbolType 

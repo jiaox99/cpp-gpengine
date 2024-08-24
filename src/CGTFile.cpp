@@ -59,7 +59,7 @@ bool CGTFile::load (char *filename) {
   
   cgtStream.open (filename, ifstream::in | ifstream::binary);
   
-  if (((void*) cgtStream) == NULL) {
+  if (cgtStream.fail()) {
     return false;
   }
   

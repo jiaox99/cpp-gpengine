@@ -17,8 +17,8 @@
  #ifndef RULE_TABLE_H
  #define RULE_TABLE_H
 
- #include "misc.h"
  #include <vector>
+ #include "misc.h"
 
  using namespace std;
 
